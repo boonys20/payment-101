@@ -30,7 +30,6 @@ public class OrderService {
     public String confirm (String token) {
 
         //TODO: Bonus point, please help me to create a unique reference_order per each order.
-
         String referenceOrder = "INV12345671111112";
 
         try {
