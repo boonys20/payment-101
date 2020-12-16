@@ -101,7 +101,7 @@ CREATE TABLE orders (
 );
 ```
 
-4.  CRUD repository, new folder `serivces` in `src\main\java\main\com\kbtg\tech\` and java file `OrderSerivce.java` and insert code below.
+4.  CRUD repository, new folder `services` in `src\main\java\main\com\kbtg\tech\` and java file `OrderService.java` and insert code below.
 
 ```java
 package com.kbtg.tech.services;
@@ -195,7 +195,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
      
 @Controller
-public class CheckOutController {
+public class CheckoutController {
 
     @Autowired
     private OrderService orderService;
