@@ -179,7 +179,7 @@ public class OrderService {
 }
 ```
 
-then modify  `CheckOutController.java` with code below.
+then modify `CheckoutController.java` with code below.
 
 ```java
 package com.kbtg.tech.controllers;
@@ -215,4 +215,4 @@ public class CheckoutController {
 }
 ```
 
-Run command... !!! by using `./mvnw spring-boot:run`  inside `initial` folder, Open browser http://localhost:8080
+Run command... !!! by using `mvnw.cmd spring-boot:run`  inside `initial` folder, Open browser http://localhost:8080

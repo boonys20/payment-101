@@ -54,7 +54,7 @@ spring.datasource.password=your_password
 spring.devtools.livereload.enabled=true
 ```
 
-test your code by using `./mvnw spring-boot:run`  inside `initial` folder, if service is running you will see result below.
+test your code by using `.mvnw.cmd spring-boot:run`  inside `initial` folder, if service is running you will see result below.
 
 ```text
  .   ____          _            __ _ _
@@ -81,3 +81,6 @@ Cannot find template location: classpath:/templates/ (please add some templates 
 2020-12-15 12:42:39.540  INFO 2644 --- [         task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
 ```
 
+** Set JAVA_HOME  
+   1) VSCODE >> https://code.visualstudio.com/docs/java/java-tutorial#_settings-for-the-jdk
+   2) WINDOWS >> https://javatutorial.net/set-java-home-windows-10
