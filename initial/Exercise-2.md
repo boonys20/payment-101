@@ -89,7 +89,7 @@ public class Order {
 }
 ```
 
-3. Open browser and log-in https://api.elephantsql.com/, click on Browser menu then paste a script below press excute to create `orders`  table inside your database instance. 
+3. Open browser and log-in https://elephantsql.com/, click on Browser menu then paste a script below press excute to create `orders`  table inside your database instance. 
 
 ```sql
 CREATE TABLE orders (
